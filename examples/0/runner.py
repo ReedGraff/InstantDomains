@@ -1,5 +1,5 @@
 import asyncio
-from instant_domains.client import InstantDomainsClient
+from instantdomains.client import InstantDomainsClient
 
 async def main():
     """

@@ -28,7 +28,7 @@ pip install instantdomains
 
 1.  **`InstantDomainsClient`**: The central entry point for the SDK. It manages the `httpx.AsyncClient` instance, base URLs, and headers.
 2.  **`client.warmup()`**: A crucial first step. This method makes initial requests to the website to acquire necessary session cookies, which are required for subsequent API calls.
-3.  **API Modules**: Functionality is divided into modules located in `instant_domains/api/`. For example, all domain searching logic is contained within the `DomainSearchAPI` class, accessible via `client.domain_search`.
+3.  **API Modules**: Functionality is divided into modules located in `instantdomains/api/`. For example, all domain searching logic is contained within the `DomainSearchAPI` class, accessible via `client.domain_search`.
 4.  **Pydantic Models**: Each API module defines Pydantic models for its responses. The SDK ensures that no matter the structure of the raw data (HTML, JSON, etc.), the final output is always a validated and typed Pydantic object.
 
 ## Quick Example
@@ -38,7 +38,7 @@ Here is a basic example of how to use the client to search for a domain's availa
 ```python
 # InstantDomains/examples/0/runner.py
 import asyncio
-from instant_domains.client import InstantDomainsClient
+from instantdomains.client import InstantDomainsClient
 
 async def main():
     """
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 The project is organized to separate concerns, with a clear distinction between the client, API logic, and data models.
 
 ```
-instant_domains/
+instantdomains/
 ├── __init__.py
 ├── client.py                      # Holds the main InstantDomainsClient, session, and request logic
 ├── api/

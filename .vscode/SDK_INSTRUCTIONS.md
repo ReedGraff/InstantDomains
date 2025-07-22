@@ -12,7 +12,7 @@ Authentication:
 
 This is my project structure:
 ```
-instant_domains/
+instantdomains/
 ├── __init__.py
 ├── client.py                      # holds client + tokens etc + login flow + base request handiling (_request function)
 ├── lib/                           # holds shared utility files

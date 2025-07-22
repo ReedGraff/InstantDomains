@@ -9,7 +9,7 @@ import openai
 from pydantic import Field
 
 # Local project imports
-from instant_domains.client import InstantDomainsClient
+from instantdomains.client import InstantDomainsClient
 from schemic import SchemicModel
 
 # --- Logger Setup ---
