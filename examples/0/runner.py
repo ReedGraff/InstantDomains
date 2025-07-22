@@ -10,7 +10,7 @@ async def main():
         # It's important to run the warmup sequence to initialize the session
         await client.warmup()
         
-        domain_to_check = "dealerflow"
+        domain_to_check = "describemed"
         search_results = await client.domain_search.search(domain_to_check)
         
         print(f"Results for '{search_results.query}':")

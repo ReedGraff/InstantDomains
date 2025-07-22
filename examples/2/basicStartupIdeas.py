@@ -189,7 +189,7 @@ async def main(startup_idea: str, allowed_tlds: Set[str], only_show_available: b
 
 if __name__ == "__main__":
     # --- Configuration ---
-    STARTUP_IDEA = "An AI parts assistant for car dealerships. It helps the parts desk manage inventory and automatically builds repair orders from service line descriptions."
+    STARTUP_IDEA = "An AI scribe assistant for medical professionals, helping them document patient interactions and generate reports."
     ALLOWED_TLDS = {'com', 'ai'} # , 'io', 'net', 'org'
     # Set to True to only get available domains, False to get all results.
     ONLY_SHOW_AVAILABLE = False

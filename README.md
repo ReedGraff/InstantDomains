@@ -50,7 +50,7 @@ async def main():
         # It's important to run the warmup sequence to initialize the session
         await client.warmup()
         
-        domain_to_check = "dealerflow"
+        domain_to_check = "describemed"
         # Define the TLDs you want to check
         tlds_to_check = {"com", "net", "ai", "io"}
         
