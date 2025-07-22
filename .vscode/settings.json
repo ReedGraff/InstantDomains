@@ -1,0 +1,23 @@
+{
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+      {
+        "file": ".vscode/SDK_INSTRUCTIONS.md"
+      },
+    //   {
+    //     "file": "sdk_parent/route1_sdk/client.py"
+    //   },
+    //   {
+    //     "file": ".vscode/INSTRUCTIONS.md"
+    //   },
+    //   {
+    //     "file": "src/api/lib/globTypes.py"
+    //   },
+    //   {
+    //     "file": "src/api/lib/db.py"
+    //   },
+    //   {
+    //     "file": "src/api/lib/logger_config.py"
+    //   }
+    ],
+}
